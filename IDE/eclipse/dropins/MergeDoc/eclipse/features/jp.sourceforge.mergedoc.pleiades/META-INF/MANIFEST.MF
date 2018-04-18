@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.4
+Created-By: 1.6.0_45-b06 (Sun Microsystems Inc.)
+
+Name: pleiades.png
+SHA1-Digest: rWHC29jZKQtt+FeW30lnXAhYgyk=
+
+Name: feature.xml
+SHA1-Digest: 46msn/uFyVvRfqUUuWosQaiSp40=
+
+Name: feature.properties
+SHA1-Digest: TOMJGeihpkI8adhbb9wQNmHHpng=
+

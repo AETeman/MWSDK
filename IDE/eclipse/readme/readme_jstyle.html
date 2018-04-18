@@ -1,0 +1,118 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-31J">
+<title>About</title>
+</head>
+<body>
+<TABLE cellPadding=3 width="100%" border=0>
+	<tr>
+		<TD bgcolor="#000000"><b><font face="Tahoma" color="#C0C0C0"
+			size="5">&nbsp;JStyle for Eclipse 4.3</font></b></TD>
+	</tr>
+	<tr>
+		<TD>
+		<p><font size="2">対象OS： Windows<br>
+		ライセンス： Eclipse Public License Version 1.0<br>
+		URL： <a href="http://mergedoc.sourceforge.jp/">http://mergedoc.sourceforge.jp/</a></font></p>
+		<p><font size="2"> </font>
+		</TD>
+	</tr>
+	<!-- ---------------------------------------------------------------------- -->
+	<tr>
+		<TD vAlign=top align=left bgColor=#0080c0><b><font
+			color="#ffffff" size="2">概要</font></b></TD>
+	</tr>
+	<tr>
+		<TD>
+		<br>
+		<font size="2">エディタで全角空白、半角空白、タブ、改行（LF、CRLF、CR）を表示可能にします。<br>
+		他に太字を通常文字と同じ幅で表示するオプションがあります（<span class="small">eclipse.org
+		Bugzilla Bug 69253 3.0 用パッチを参考にさせていただきました</span>）。<br>
+		<br>
+		表示は MS ゴシック 9 ポイントで最適となるように調整しています。<br>
+		フォントの設定は、ウィンドウ &gt; 設定 &gt; 一般 &gt; 外観 &gt; 色とフォント &gt; 基本 &gt;
+		テキスト・フォント &gt; 変更
+		</font>
+		<br>
+		<br>
+		</TD>
+	</tr>
+	<!-- ---------------------------------------------------------------------- -->
+	<TR>
+		<TD vAlign=top align=left bgColor=#0080c0><B><FONT
+			color=#ffffff size="2">インストール</FONT></B></TD>
+	</TR>
+	<TR>
+		<TD>
+		<br>
+		<font size="2">
+			jstyle_4.x.x.x.zip を解凍し、plugins ディレクトリーを Eclipse の plugins
+			ディレクトリーに上書きしてください。<br>
+			plugins 以外のフォルダー (dropins など) に配置すると正常に動作しない場合があります。<br><br>
+			注意) オリジナルの SWT jar を上書きします。
+		</font>
+		<br>
+		<br>
+		</TD>
+	</TR>
+	<!-- ---------------------------------------------------------------------- -->
+	<tr>
+		<TD vAlign=top align=left bgColor=#0080c0><b><font
+			color="#ffffff" size="2">アンインストール</font></b></TD>
+	</tr>
+	<TR>
+		<TD>
+		<br>
+		<font size="2">
+		<ol>
+			<li>
+			plugins ディレクトリーの以下 jar ファイルを削除。
+			<blockquote>
+				jp.sourceforge.mergedoc.jstyle_4.x.x.x.jar<br>
+				org.eclipse.swt.win32.win32.x86_xxx.xxx.jar<br>
+				org.eclipse.swt.win32.win32.x86_source_xxx.xxx.jar<br>
+			</blockquote>
+			</li>
+			<li>
+			plugins ディレクトリーの以下バックアップ jar をリネーム (末尾 .backup 除去)。
+			<blockquote>
+				org.eclipse.swt.win32.win32.x86_64_xxx.xxx.jar.backup<br>
+				org.eclipse.swt.win32.win32.x86_64_source_xxx.xxx.jar.backup<br>
+			</blockquote>
+			</li>
+		<ol>
+		</font>
+		</TD>
+	</TR>
+	<!-- ---------------------------------------------------------------------- -->
+	<tr>
+		<TD vAlign=top align=left bgColor=#0080c0><b><font
+			color="#ffffff" size="2">設定</font></b></TD>
+	</tr>
+	<tr>
+		<TD>
+		<br>
+		<font size="2">設定 &gt; 一般 &gt; JStyle から各制御文字の
+		ON/OFF、色指定を行ってください。</font>
+		<br>
+		<br>
+		</TD>
+	</tr>
+	<!-- ---------------------------------------------------------------------- -->
+	<tr>
+		<TD vAlign=top align=left bgColor=#0080c0><b><font
+			color="#ffffff" size="2">更新履歴</font></b></TD>
+	</tr>
+	<TR>
+		<TD>
+		<br>
+		<font size="2">
+		4.3.2.0<br>- [#70424] antのinputタスクでSecurityException 対応版<br><br>
+		4.3.1.1<br>- [#70424] antのinputタスクでSecurityException 不具合あり<br><br>
+		4.3.0.0<br>- Eclipse 4.3.0 向けにビルド（機能的な変更無し）<br>
+		</font>
+		</TD>
+	</TR>
+</TABLE>
+</body>
+</html>

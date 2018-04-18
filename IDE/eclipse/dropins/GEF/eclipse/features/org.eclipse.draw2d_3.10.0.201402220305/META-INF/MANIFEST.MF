@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.6.0_21
+Built-By: hudsonbuild
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+
+Name: epl-v10.html
+SHA1-Digest: pTOyybcpEe+Y8lkSVUtarMleXqE=
+
+Name: META-INF/maven/org.eclipse.draw2d.features/org.eclipse.draw2d/po
+ m.xml
+SHA1-Digest: 8za8MNXukf74LYOz/OTd6vKIr0o=
+
+Name: eclipse_update_120.jpg
+SHA1-Digest: xstAqMgs/a5AsQXQZSdDQ79veOA=
+
+Name: META-INF/maven/org.eclipse.draw2d.features/org.eclipse.draw2d/po
+ m.properties
+SHA1-Digest: YmLcBbMtVh4fDTzIYv6Ty9bGHms=
+
+Name: license.html
+SHA1-Digest: /vLZjlHkZSXMSfPrWwNqOUDqqbM=
+
+Name: feature.properties
+SHA1-Digest: 2o9MUt5V0BJejGkEQk/QrsO2P4Q=
+
+Name: feature.xml
+SHA1-Digest: wHxvdrW/dBVONWiwqxxo+h2Q4LY=
+
